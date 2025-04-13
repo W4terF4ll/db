@@ -3,7 +3,6 @@
     {
       "id": 1,
       "q": "test question",
-      "correct": 1,
       "first": "test one",
       "second": "test two",
       "third": "test three",
@@ -12,7 +11,6 @@
     {
       "id": 2,
       "q": "test buestion",
-      "correct": 2,
       "first": "best one",
       "second": "best two",
       "third": "best three",
@@ -21,7 +19,6 @@
     {
       "id": 3,
       "q": "test wuestion"
-      "correct": 3,
       "first": "west one",
       "second": "west two",
       "third": "west three",
