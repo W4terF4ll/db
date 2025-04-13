@@ -26,7 +26,7 @@
       "first": "append()",
       "second": "insert()",
       "third": "add()",
-      "fourth": "extend()"
+      "fourth": "extend()",
       "correct": 1,
       "explain": "insert() adds at a specified position, add() is used in sets, and extend() is used for adding iterables together."
     }
