@@ -100,6 +100,56 @@
       "correct": 2,
       "explain": "Importing math imports Python's math module, enabling advanced functions like sqrt() and pi."
     },
+    {
+      "id": 11,
+      "q": "Which of the following best represents a Python list?",
+      "first": "<img src='res/curly.jpg' style='width: 20px; height: 20px;'>",
+      "second": "<img src='res/curly.jpg' style='width: 20px; height: 20px;'>",
+      "third": "<img src='res/curly.jpg' style='width: 20px; height: 20px;'>",
+      "fourth": "<img src='res/curly.jpg' style='width: 20px; height: 20px;'>",
+      "correct": 3,
+      "explain": "Define is sometimes used in pseudocode, function is used in javascript, and func is not a keyword."
+    },
+    {
+      "id": 12,
+      "q": "Sarah is learning Python and wants to store information about a car, including its brand, model, and year. She wants to access each value by a unique label. What type of data structure should she use?",
+      "first": "List",
+      "second": "Tuple",
+      "third": "Dictionary",
+      "fourth": "Set",
+      "correct": 3,
+      "explain": "Lists are ordered, but use indexes, not labels, tuples also use indexes, and sets are unordered and do not have key-value pairing."
+    },
+    {
+      "id": 13,
+      "q": "Jake writes a Python function to calculate a discount but forgets to use a return statement. What will happen when he calls the function expecting a result?",
+      "first": "The function will return None",
+      "second": "The program will crash",
+      "third": "The function will print the discount",
+      "fourth": "The function will return 0",
+      "correct": 1,
+      "explain": "Python doesn't crash, it returns None, print doesnt diaplay return values, and 0 is never returned unless coded to."
+    },
+    {
+      "id": 14,
+      "q": "Emma creates a Python script with a loop that continues until the user enters 'quit'. Which loop type is she most likely using?",
+      "first": "for loop",
+      "second": "while loop",
+      "third": "until loop",
+      "fourth": "repeat loop",
+      "correct": 2,
+      "explain": "For loops are used for fixed iterations, and until and repeat are not valid keywords."
+    },
+    {
+      "id": 15,
+      "q": "Liam wants to store a list of colors, but make sure no color appears more than once. What data type should he choose?",
+      "first": "List",
+      "second": "Tuple",
+      "third": "Dictionary",
+      "fourth": "Set",
+      "correct": 4,
+      "explain": "Sets automatically remove duplicates and store unique elements, while lists and tuples allow duplicates and dictionaries hold key-value pairs."
+    }
   ],
   "HTML": [
     {
