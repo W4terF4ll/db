@@ -104,34 +104,104 @@
   "HTML": [
     {
       "id": 1,
-      "q": "TESTWhich function is used to get the length of a string?",
-      "first": "len()",
-      "second": "count()",
-      "third": "size()",
-      "fourth": "length()",
-      "correct": 1,
-      "explain": "count() is used for lists, size() is used for arrays, and length() is the wrong function name."
+      "q": "What is the correct HTML tag for inserting a line break?",
+      "first": "<break>",
+      "second": "<br>",
+      "third": "<lb>",
+      "fourth": "<newline>",
+      "correct": 2,
+      "explain": "<br> is the only valid HTML tag."
     },
     {
       "id": 2,
-      "q": "TESTWhich of the following is NOT a valid keyword?",
-      "first": "class",
-      "second": "def",
-      "third": "global",
-      "fourth": "data",
-      "correct": 4,
-      "explain": "class is used for creating objects, def is used to create functions, and global is used to make variables accessible everywhere in a program."
+      "q": "Which HTML tag is used to define an internal style sheet?",
+      "first": "<css>",
+      "second": "<style>",
+      "third": "<script>",
+      "fourth": "<stylesheet>",
+      "correct": 2,
+      "explain": "<css> and <stylesheet> are not valid tags, <script> is for JS."
     },
     {
       "id": 3,
-      "q": "TESTWhich method is used to add an item at the end of a list?",
-      "first": "append()",
-      "second": "insert()",
-      "third": "add()",
-      "fourth": "extend()",
+      "q": "What is the purpose of the <alt> attribute in an <img> tag?",
+      "first": "To link the image",
+      "second": "To add a caption",
+      "third": "To style the image",
+      "fourth": "To define alternate text for accessibility",
+      "correct": 4,
+      "explain": "Linking is done with <a>, captions use <figcaption>, and styling is done with CSS."
+    },
+    {
+      "id": 4,
+      "q": "Which HTML tag is used to create a numbered list?",
+      "first": "<ol>",
+      "second": "<ul>",
+      "third": "<li>",
+      "fourth": "<list>",
       "correct": 1,
-      "explain": "insert() adds at a specified position, add() is used in sets, and extend() is used for adding iterables together."
-    }
+      "explain": "<ul> is for a bulleted list, <li> is for list items, and <list> is not a valid tag."
+    },
+    {
+      "id": 5,
+      "q": "Which of the following tags is not a semantic HTML element?",
+      "first": "<article>",
+      "second": "<section>",
+      "third": "<div>",
+      "fourth": "<nav>",
+      "correct": 3,
+      "explain": "<article>, <section>, and <nav> all convey semantic structure."
+    },
+    {
+      "id": 6,
+      "q": "Maria is creating a form for user login. She wants to mask the password input. Which input type should she use?",
+      "first": "text",
+      "second": "email",
+      "third": "password",
+      "fourth": "hidden",
+      "correct": 3,
+      "explain": "text shows characters clearly, email is used for email validation, and hidden hides the input box"
+    },
+    {
+      "id": 7,
+      "q": "Jamal wants users to navigate to another page when they click on an image. What should he wrap the <img> tag in?",
+      "first": "<div>",
+      "second": "<button>",
+      "third": "<a>",
+      "fourth": "<form>",
+      "correct": 3,
+      "explain": "<div> can't provide linking behavior, <button> can trigger events but is not ideal, and <form> is for data submission."
+    },
+    {
+      "id": 8,
+      "q": "Zoe is making a table of products. Which tag defines a table header?",
+      "first": "<th>",
+      "second": "<td>",
+      "third": "<tr>",
+      "fourth": "<thead>",
+      "correct": 1,
+      "explain": "<th> is a data cell, <tr> is a table row, and <thead> defines the head section, but doesnt replace <th>."
+    },
+    {
+      "id": 9,
+      "q": "Luis is adding a video to his webpage. Which attribute should he include to make the video play automatically?",
+      "first": "loop",
+      "second": "controls",
+      "third": "autoplay",
+      "fourth": "mute",
+      "correct": 3,
+      "explain": "loop makes the video repeat, controls adds pause and play UI, mute silences the video."
+    },
+    {
+      "id": 10,
+      "q": "Which picture shows a link to Google using an anchor tag?",
+      "first": "<img src='res/button.jpg' style='width: 40px; height: 40px;'>",
+      "second": "<img src='res/text.jpg' style='width: 40px; height: 40px;'>",
+      "third": "<img src='res/link.jpg' style='width: 40px; height: 40px;'>",
+      "fourth": "<img src='res/image.jpg' style='width: 40px; height: 40px;'>",
+      "correct": 3,
+      "explain": "The blue text and underline visually indicates a hyperlink."
+    },
   ],
   "profile": {
     "name": "typicode"
