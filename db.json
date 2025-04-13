@@ -201,7 +201,7 @@
       "fourth": "<img src='res/image.jpg' style='width: 40px; height: 40px;'>",
       "correct": 3,
       "explain": "The blue text and underline visually indicates a hyperlink."
-    },
+    }
   ],
   "profile": {
     "name": "typicode"
