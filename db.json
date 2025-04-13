@@ -3,11 +3,11 @@
     {
       "id": 1,
       "correct": 1,
-      "q": "test question",
-      "first": "test one",
-      "second": "test two",
-      "third": "test three",
-      "fourth": "test four"
+      "q": "Which function is used to get the length of a string?",
+      "first": "len()",
+      "second": "count()",
+      "third": "size()",
+      "fourth": "length()"
     },
     {
       "id": 2,
