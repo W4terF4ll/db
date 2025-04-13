@@ -1,5 +1,5 @@
 {
-  "questions": [
+  "python": [
     {
       "id": 1,
       "q": "Which function is used to get the length of a string?",
@@ -23,6 +23,38 @@
     {
       "id": 3,
       "q": "Which method is used to add an item at the end of a list?",
+      "first": "append()",
+      "second": "insert()",
+      "third": "add()",
+      "fourth": "extend()",
+      "correct": 1,
+      "explain": "insert() adds at a specified position, add() is used in sets, and extend() is used for adding iterables together."
+    }
+  ],
+  "HTML": [
+    {
+      "id": 1,
+      "q": "TESTWhich function is used to get the length of a string?",
+      "first": "len()",
+      "second": "count()",
+      "third": "size()",
+      "fourth": "length()",
+      "correct": 1,
+      "explain": "count() is used for lists, size() is used for arrays, and length() is the wrong function name."
+    },
+    {
+      "id": 2,
+      "q": "TESTWhich of the following is NOT a valid keyword?",
+      "first": "class",
+      "second": "def",
+      "third": "global",
+      "fourth": "data",
+      "correct": 4,
+      "explain": "class is used for creating objects, def is used to create functions, and global is used to make variables accessible everywhere in a program."
+    },
+    {
+      "id": 3,
+      "q": "TESTWhich method is used to add an item at the end of a list?",
       "first": "append()",
       "second": "insert()",
       "third": "add()",
